@@ -176,6 +176,7 @@ Assert.assertEquals(expectedmgs,actualmgs);
 
     dealFinderPage.clickSearchIcon();
 
+
 }
 @Then("I should get invalid routes mgs {string}")
     public void invalidSearchMgs(String expectedInvalidMgs)
